@@ -1,6 +1,6 @@
 # iremsugunenc
 ## Sifreleme ve Şifre Çözme Programı
-Bu program, girilen bir metni belirtilen bir anahtar değeri kullanarak şifreler ve aynı anahtar değeri kullanarak şifreyi çözer. Program, küçük harf ve büyük harf ayrımı yapar ve şifreleme işlemlerini gerçekleştirir. Ayrıca, şifrelenmiş metinleri bir dosyaya yazarak kaydeder ve şifreyi çözüp ekrana yazdırır.
+Bu program, txt dosyasını okuyarak dosyadaki metni belirtilen bir anahtar değeri kullanarak şifreler ve aynı anahtar değeri kullanarak şifreyi çözer. Program, küçük harf ve büyük harf ayrımı yapar ve şifreleme işlemlerini gerçekleştirir. Ayrıca, şifrelenmiş metinleri bir dosyaya yazarak kaydeder ve şifreyi çözüp ekrana yazdırır.
 ## Kullanım
 Karakter küçük harfse, şifreleme işlemi bu blokta gerçekleşir.Değilse büyük harf kontrolü yapılır.
 Küçük harfin ASCII değeri a  çıkartılarak  bir indekse dönüştürülür. Şifreleme anahtarı eklenir ve mod 26 alınır (26 karakter olduğu için). Son olarak, a eklenerek tekrar ASCII değerine dönüştürülür ve metin[i] karakterine atanır.
