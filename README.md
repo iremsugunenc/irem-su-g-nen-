@@ -11,3 +11,7 @@ Yeni bir dosya oluşturulur. "sifreli_metinler.txt" adlı dosya, "w" (write) mod
 Okunan metin, sifrele fonksiyonu ile şifrelenir.
 Şifrelenmiş metin, ekrana yazdırılır ve dosya2 dosyasına yazılır.
 Son olarak, fclose fonksiyonu ile açılan dosyalar kapatılır.
+## Hata Durumları
+Eğer uyg.txt.txt dosyası bulunamazsa veya açılamazsa, program bir hata mesajı verecek ve çalışmayı durduracaktır.
+Hatanın içeriğinde belirtilen dosyanın yolunu kontrol edin. Dosyanın gerçekten var olduğundan ve belirtilen konumda bulunduğundan emin olun.
+Hata mesajı dosyanın "bulunamadı" olduğunu söylüyorsa, dosyanın gerçekten var olduğunu ve adının doğru yazıldığını kontrol edin. İmla hataları veya dosya uzantısı ile ilgili problemler sıkça karşılaşılan nedenlerdir.
